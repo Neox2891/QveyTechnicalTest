@@ -1,6 +1,17 @@
-
+/**
+ * Manejador de rutas
+ * @param {*} param0
+ * @param {Object} param0.User - modelo de usuarios DB
+ * @param {Object} param0.Task modelo de tareas 
+ * @param {Object} param0.Project - modelo de proyectos DB
+ */
 const handlers = ({ User, Project, Task }) => ({
-
+    /**
+     * Obtener todos los usuarios, tareas y proyectos.
+     * 
+     * @param {Object} req Request.
+     * @returns {Object} Objeto que representa todos los usuarios, tareas y proyectos.
+     */
     get: (req, res) => {
 
         User.find({}, (err, userDb) => {

@@ -1,5 +1,17 @@
+/**
+ * Manejador de rutas
+ * @param {*} param0
+ * @param {Object} param0.User - modelo de usuarios DB
+ * @module jwt modulo jwt
+ * @module bcrypt modulo bcrypt
+ */
 const handlers = ({ jwt, bcrypt, User }) => ({ 
-
+    /**
+     * Login usuario.
+     *  
+     * @param {Object} req Request.
+     * @returns {Object} Objeto que representa el login de usuario.
+     */
     post: (req, res) => {
 
         let { body } = req;
