@@ -37,7 +37,7 @@ Siga el siguiente paso a paso para correr los test:
 
 ## Heroku
 
-El la siguiente url se encuentra delsplegada la aplicación en heroku:
+El la siguiente url se encuentra desplegada la aplicación en heroku:
 
 - https://time-traking.herokuapp.com/.
 
