@@ -63,7 +63,7 @@ Para un buen flujo de trabajo recomiendo:
 
 ### Obeservaciones
 
-Se deberia implementar del lado del cliente las validaciones para iniciar y pausar tarea, dependiendo de los estados (si esta iniciaada o pausada).
+Se deberia implementar del lado del cliente las validaciones para iniciar y pausar tarea, dependiendo de los estados (si esta iniciada o pausada).
 
 # Autor
 
