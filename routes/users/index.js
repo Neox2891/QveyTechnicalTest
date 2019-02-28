@@ -82,6 +82,7 @@ const handlers = ({ bcrypt, User, Task, _ }) => ({
             name: body.name,
             email: body.email,
             password: bcrypt.hashSync(body.password, 10),
+            role: body.role,
             date: Date()
         });
     
