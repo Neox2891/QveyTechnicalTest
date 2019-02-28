@@ -61,6 +61,10 @@ Para un buen flujo de trabajo recomiendo:
 
 - Crear usuario => Login => Crear proyecto => Crear tarea => Iniciar tarea => Pausar Tarea...
 
+### Obeservaciones
+
+Se deberia implementar del lado del cliente las validaciones para iniciar y pausar tarea, dependiendo de los estados (si esta iniciaada o pausada).
+
 # Autor
 
 - Nestor Estrada 
