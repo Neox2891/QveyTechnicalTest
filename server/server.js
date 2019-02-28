@@ -29,6 +29,10 @@ const tasksHandler = tasks({ Task, Project, User, _ });
 const loginHandler = login({ jwt, bcrypt, User });
 const getAllHandler = getAll({ User, Project, Task });
 
+app.get('/', (req, res) => {
+    res.send('Aqui estoy!');
+});
+
 // Login
 app.post('/login', loginHandler.post);
 
@@ -40,7 +44,7 @@ app.get('/users/:id', checkToken, usersHandler.getById);
 app.put('/users/:id', [checkToken, checkAdminRole], usersHandler.put);
 app.delete('/users/:id', [checkToken, checkAdminRole], usersHandler.delete);
 app.get('/users', checkToken, usersHandler.get);
-app.post('/users', usersHandler.post);
+app.post('/users', [checkToken, checkAdminRole], usersHandler.post);
 
 // Projects
 app.get('/project/:id', checkToken, projectsHandler.getById);

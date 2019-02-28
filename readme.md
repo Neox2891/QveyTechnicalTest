@@ -39,7 +39,7 @@ Siga el siguiente paso a paso para correr los test:
 
 El la siguiente url se encuentra delsplegada la aplicación en heroku:
 
-- 
+- https://time-traking.herokuapp.com/.
 
 ## Flujo de trabajo y condiciones
 
@@ -59,7 +59,7 @@ Para probar la API recomiendo el siguiente flujo de trabajo, bajo las siguientes
 
 Para un buen flujo de trabajo recomiendo:
 
-- Crear usuario => Crear proyecto => Crear tarea => Iniciar tarea => Pausar Tarea...
+- Crear usuario => Login => Crear proyecto => Crear tarea => Iniciar tarea => Pausar Tarea...
 
 # Autor
 
